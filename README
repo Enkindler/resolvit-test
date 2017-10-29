@@ -12,7 +12,7 @@ and run the command:
 
 java -jar ResolvitTest.jar
 
-In case it is necessary to recompile the project, it can be checked out from git with Eclipse as an existing Eclipse Project (.project file is available for checkout).
+In case it is necessary to recompile the project, it can be checked out from git with Eclipse as an existing Eclipse Project (.project file is provided for checkout).
 Once checked out from git, make sure you add the jars inside the lib folder as dependencies on the buildpath of the project.
 
 
