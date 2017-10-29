@@ -1,6 +1,6 @@
 Resolvit Programming Test
 
-A compiled jar file, located in the bin folder, is supplied for testing.
+A compiled jar file, located in the dist folder, is supplied for testing.
 It has been tested in Windows 10, Windows 7 and Ubuntu.
 To run, download in a location of your preference and execute with java from the console.
 
