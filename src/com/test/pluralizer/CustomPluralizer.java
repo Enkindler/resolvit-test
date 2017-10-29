@@ -23,8 +23,18 @@ public class CustomPluralizer {
 	}
 	
 	public boolean isPluralOf(String originWord, String pluralWord) {
-		return Noun.pluralOf(originWord).equalsIgnoreCase(pluralWord) ||
-			Noun.pluralOf(originWord, localPluralizer).equalsIgnoreCase(pluralWord);
+		String pluralOfOriginWord = Noun.pluralOf(originWord);
+		String pluralOfOriginWordCustom = Noun.pluralOf(originWord, localPluralizer);
+		boolean result = false;
+		if(pluralOfOriginWord != null) {
+			result = pluralOfOriginWord.equalsIgnoreCase(pluralWord);
+		}
+		
+		if(pluralOfOriginWordCustom != null) {
+			result = pluralOfOriginWordCustom.equalsIgnoreCase(pluralWord) && result;
+		}
+		
+		return result;
 	}
 	
 	
