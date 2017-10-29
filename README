@@ -1,6 +1,7 @@
 Resolvit Programming Test
 
 A compiled jar file, located in the bin folder, is supplied for testing.
+It has been tested in Windows 10, Windows 7 and Ubuntu.
 To run, download in a location of your preference and execute with java from the console.
 
 Java 8 is required.
@@ -11,11 +12,11 @@ and run the command:
 
 java -jar ResolvitTest.jar
 
-In case it is necessary to recompile the project, it can be checked out from git with Eclipse (Or the IDE of your preference) as a simple Java Project.
+In case it is necessary to recompile the project, it can be checked out from git with Eclipse as an existing Eclipse Project (.project file is available for checkout).
 Once checked out from git, make sure you add the jars inside the lib folder as dependencies on the buildpath of the project.
 
 
-The dependecies user are:
+The dependecies used are:
 
 Gson version 2.8.2: https://github.com/google/gson
 Inflector (Latest): https://github.com/tomwhite/inflector
