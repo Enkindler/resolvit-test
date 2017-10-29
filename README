@@ -1,1 +1,21 @@
-Empty Readme
+Resolvit Programming Test
+
+A compiled jar file, located in the bin folder is supplied for testing.
+To run, download in a location of your preference, and run with java from the console.
+
+Java 8 is required.
+
+To run, open a command line terminal,
+cd into the directory you previosuly saved the jar file,
+and run the command java -jar ResolvitTest.jar
+
+In case it is necessary to recompile the project, it can be checked out from git with Eclipse.
+Once checked out from git, make sure you add the jars inside the lib folder as dependencies on the buildpath of the project.
+
+
+The dependecies user are:
+
+Gson version 2.8.2: https://github.com/google/gson
+Inflector (Latest): https://github.com/tomwhite/inflector
+
+
