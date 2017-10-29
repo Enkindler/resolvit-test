@@ -1,15 +1,17 @@
 Resolvit Programming Test
 
-A compiled jar file, located in the bin folder is supplied for testing.
-To run, download in a location of your preference, and run with java from the console.
+A compiled jar file, located in the bin folder, is supplied for testing.
+To run, download in a location of your preference and execute with java from the console.
 
 Java 8 is required.
 
 To run, open a command line terminal,
 cd into the directory you previosuly saved the jar file,
-and run the command java -jar ResolvitTest.jar
+and run the command: 
 
-In case it is necessary to recompile the project, it can be checked out from git with Eclipse.
+java -jar ResolvitTest.jar
+
+In case it is necessary to recompile the project, it can be checked out from git with Eclipse (Or the IDE of your preference) as a simple Java Project.
 Once checked out from git, make sure you add the jars inside the lib folder as dependencies on the buildpath of the project.
 
 
